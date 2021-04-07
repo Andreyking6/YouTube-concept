@@ -79,10 +79,12 @@ h6 {
 }
 /*--------------------*/
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-style: 16px;
+  font-weight: 400;
 }
 .header {
-  margin: 20px 70px 20px 34px;
+  margin: 20px 70px 50px 34px;
   display: flex;
   align-items: center;
 }
@@ -116,6 +118,7 @@ body {
 .input_search {
   background-color: transparent;
   padding: 12px 23px 12px 23px;
+  width: 100%;
 }
 .button_search {
   width: 19px;
@@ -153,4 +156,42 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+.nav__menu {
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+.side__bar {
+  margin-left: 32px;
+}
+.nav__link {
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  fill: #898989;
+}
+.nav__text {
+  margin-left: 13px;
+  color: #898989;
+  padding: 6px 0 6px 0;
+}
+.nav__image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+.nav__title {
+  margin-bottom: 30px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+.nav__link:hover {
+  fill: #ff0000;
+}
+
+.nav__text:hover {
+  color: #ff0000;
 }
