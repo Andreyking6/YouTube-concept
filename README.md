@@ -2,7 +2,7 @@
 Проект выполнил: Герасимов Андрей
 
 ## Используемые технологии
--HTML
--CSS
--Normalaize.css
--SVG Sprites
+- HTML
+- CSS
+- Normalaize.css
+- SVG Sprites
